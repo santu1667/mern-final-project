@@ -48,16 +48,23 @@ pwd:testpassword
 
 This folder had 4 internal folders as below.
 
-1. Guest User
-2. Admin,
-3. User
-4. New User.
-   ### Each of above folder consists of 3 things
-   a) images folder
-   b) video file to show the application flow for each of the above scenario
-   c) docx file that explains the flow
+1. Guest User - Checkout Flow :
+   Shows the Flow how guest user can access shopping portal and do checkout of the products.
+2. New User - Registration Flow :
+   Shows the flow how a guest user can register for portal for easy checkout
+3. Existing User - Login Flow :
+   Shows the flow for login and after login how a logged in user can navigate and do the checkout.
+4. Admin User - Admin Flow :
+   Shows the flow for Admin what additional activities an Admin can do apart from regular users.
+
+### Each of above folder consists of 3 things
+
+a) images folder consists of images captured in local while going through the flow.
+b) video file to show the application flow for each of the above scenario
+c) docx file that explains the flow with screeshots.
 
 ## Mongo DB Collection folder
+
 has the json and csv files for the exported collection data from database lms-shopping-cart
 Had data for below 3 collections
 users
