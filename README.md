@@ -43,7 +43,7 @@ Regular User:
 user:test@gmail.com
 pwd:testpassword
 
-UI Screenshots & Videos folder :
+## UI Screenshots & Videos folder :
 
 This folder had 4 internal folders as below.
 
@@ -51,12 +51,12 @@ This folder had 4 internal folders as below.
 2. Admin,
 3. User
 4. New User.
-   Each of above folder consists of 3 things
+   ### Each of above folder consists of 3 things
    a) images folder
    b) video file to show the application flow for each of the above scenario
    c) docx file that explains the flow
 
-Mongo DB Collection folder
+## Mongo DB Collection folder
 has the json and csv files for the exported collection data from database lms-shopping-cart
 Had data for below 3 collections
 users
