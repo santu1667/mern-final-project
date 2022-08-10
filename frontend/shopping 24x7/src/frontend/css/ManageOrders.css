@@ -1,0 +1,64 @@
+.manageOrderContainer{
+    margin-left:15%;
+    margin-bottom:5%;
+    width:60%
+}
+.manageOrderItems{
+    display: flex;
+    border-bottom: groove;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:100%;
+}
+.manageOrderDescription{
+    display: grid;
+    width: 90%;
+}
+
+.manageOrderDescription label{
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+.deleteText{
+    cursor: pointer;
+    color: red;
+    margin-left: 5px;
+}
+.processText{
+    cursor: pointer;
+    color: black;
+    margin-left: 5px;
+}
+.orderErrorMsg{
+    color:red;
+    margin-left:15%;
+    font-family: monospace;
+    margin-bottom:0px;
+    font-weight: bold;
+}
+.orderSuccessMsg{
+    color:green;
+    margin-left:15%;
+    font-family: monospace;
+    margin-bottom:0px;
+    font-weight: bold;
+}
+
+.manageOrderContainer h4{
+    margin-right:5px;
+    margin-bottom:5%;
+}
+
+.manageOrderDescription span{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.deliveredOrder{
+    color:green
+}
+
+.orderLinks{
+    display: inline-flex;
+    width: 20%;
+}

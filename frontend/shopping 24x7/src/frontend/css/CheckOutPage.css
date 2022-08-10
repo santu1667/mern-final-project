@@ -1,0 +1,59 @@
+.checkOutPageContainer{
+    margin-left:10%;
+    margin-right:10%;
+    width:90%
+}
+
+.checkOutPageLoginUserDetails{
+    display: block;
+}
+.checkOutPageContainer h4{
+    font-family: monospace;
+    color: green;
+}
+
+.checkOutPageUserDetails, .shippingAddressContainer{
+    display: grid;
+}
+
+.checkOutPageLoginUserDetails{
+    display: flex;
+}
+
+.checkOutPageUserDetails input,.shippingAddressContainer input{
+    width: 60%;
+    border-radius: 10px !important;
+}
+
+.shippingAddressContainer{
+    margin-top: 10px;
+}
+.shippingAddressSection1{
+    margin-top: 10px;
+}
+.shippingAddressSection1 input{
+    width: 20%;
+    border-radius: 10px !important;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.checkOutPageContainer button{
+    margin-top: 20px;
+    margin-left:25%;
+    width:20%
+}
+
+.checkOutPageLoginUserDetails label,.shippingAddressDetails label{
+    font-family: monospace;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.checkOutPageLoginUserDetails .userNameDetails{
+    margin-right:30%
+}
+
+.checkOutPageLoginUserDetails p, .shippingAddressDetails p{
+    font-family: monospace;
+}

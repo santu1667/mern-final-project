@@ -1,0 +1,31 @@
+.editProductContainer{
+    width:80%;
+}
+
+.editProductContainer img{
+    width: 100%;
+}
+
+.editProductContainer  input{
+    color:lightseagreen;
+}
+
+.editProductContainer  h5{
+    font-family: monospace;
+}
+
+.editProductErrorMessage{
+    color:red;
+    margin-left:8%;
+    font-family: monospace;
+    margin-bottom:0px;
+    font-weight: bold;
+}
+
+.editProductSuccessMessage{
+    color:green;
+    margin-left:8%;
+    font-family: monospace;
+    margin-bottom:0px;
+    font-weight: bold;
+}

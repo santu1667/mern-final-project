@@ -1,0 +1,45 @@
+.manageProductsContainer{
+    margin: 2% 15% 7% 15%;
+    width:60%
+}
+.manageProductItems{
+    display: flex;
+    border-bottom: groove;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.manageProductDescription{
+    display: grid;
+    width: 90%;
+}
+.removeText{
+    cursor: pointer;
+    color: red;
+    margin-left: 5px;
+}
+.editText{
+    cursor: pointer;
+    color: black;
+    margin-left: 5px;
+}
+.manageProductErrorMsg{
+    color:red;
+    margin-left:15%;
+    font-family: monospace;
+    margin-bottom:0px;
+    font-weight: bold;
+}
+.manageProductSuccessMessage{
+    color:green;
+    margin-left:15%;
+    font-family: monospace;
+    margin-bottom:0px;
+    font-weight: bold;
+}
+
+.headingContainer{
+    display: flex;
+}
+.headingContainer h4{
+    margin-right:5px
+}

@@ -1,0 +1,616 @@
+{
+	"info": {
+		"_postman_id": "30ab4f31-4d4e-4cc6-b669-40833a6da572",
+		"name": "lms-shopping24x7",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21551274"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "createUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\":\"test5fn\",\r\n    \"lastName\":\"test5ln\",\r\n    \"email\":\"test5@gmail.com\",\r\n    \"password\":\"testpassword\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/users/register",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "loginUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {          \r\n    \"username\":\"test5@gmail.com\",\r\n    \"password\":\"testpassword\"\r\n } ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/users/login",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "profile",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjJmMDQ2M2MyYjA5NTUwMTljMTk2NGU5In0sImlhdCI6MTY1OTkxNDE0OSwiZXhwIjoxNjU5OTE1OTQ5fQ.UJ4wlknpMnEZakY2EWd2h1BGF0JxgLJOsr0s_yKcvDM",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": " {          \r\n    \"username\":\"test@gmail.com\",\r\n    \"password\":\"testpassword\"\r\n } ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/profile",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateAddress",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"profile\": {\r\n    \"email\" : \"test5@gmail.com\",\r\n    \"address\": {\r\n            \"streetAddress\":\"9800 Fredericksburg Rd\",\r\n            \"city\":\"San Antonio\",\r\n            \"zipcode\":\"78240\",\r\n            \"state\":\"TX\"\r\n            }\r\n        }\r\n}\r\n    ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/profile/address",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"profile",
+								"address"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateProfileImage",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "test5@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "profileImage",
+									"type": "file",
+									"src": "/C:/Users/gsant/Desktop/test5.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/profile/image",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"profile",
+								"image"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteProfileImage",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {          \r\n    \"email\":\"test5@gmail.com\"\r\n } ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/profile/image",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"profile",
+								"image"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "product",
+			"item": [
+				{
+					"name": "addProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Xbox Series X",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "Consoles",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "599",
+									"type": "text"
+								},
+								{
+									"key": "discountPrice",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "isTopProduct",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Introducing the XBOX Seriex_X: Providing a true 4K gaming experience, thanks to the 12 teraflops of processing power. Equipped with AMD's Zen 2 and RDNA 2 architectures, hardware-accelerated DirectX raytracing delivers realistic lighting, shadows, and reflections to create dynamic, living worlds.",
+									"type": "text"
+								},
+								{
+									"key": "productImage",
+									"type": "file",
+									"src": "/D:/Learning/learning-mern/react/lmsprojects/shopping24x7/public/images/products/Xbox Series X.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/admin/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getProducts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getProductDetails",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/products/62f05fee2b0955019c1964f5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"products",
+								"62f05fee2b0955019c1964f5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteProduct",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "isTopProduct",
+									"value": "false",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/admin/products/62f0622b0bd9a5804e8cec5d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"products",
+								"62f0622b0bd9a5804e8cec5d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateProductDetails",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"product\": {\r\n    \"isTopProduct\" : true,\r\n    \"discountPrice\":0\r\n}\r\n}\r\n    ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/admin/products/62e89f5b75ad29834b478108",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"products",
+								"62e89f5b75ad29834b478108"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getBannerProducts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/homepage/banner",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"homepage",
+								"banner"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHomePageCategories",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/homepage/categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"homepage",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHomePageProducts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/homepage/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"homepage",
+								"products"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "orders",
+			"item": [
+				{
+					"name": "getOrders",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createOrder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\":{\r\n        \"firstName\": \"Test\",\r\n        \"lastName\": \"lastName\",\r\n        \"email\":\"test2@gmail.com\",\r\n         \"shippingAddress\": \"9835 Fredericksburg Rd\"\r\n    },\r\n    \"cart\":[{\r\n        \"productId\":\"TEST1\",\r\n        \"quantity\" :2\r\n        },\r\n        {\r\n        \"productId\":\"TEST2\",\r\n        \"quantity\" :2\r\n        }\r\n    ]}\r\n\r\n    ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/checkout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"checkout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateOrder",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"isDelivered\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/orders/62f066752b0955019c196509",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"orders",
+								"62f066752b0955019c196509"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteOrder",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/admin/orders/62f066752b0955019c196509",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"orders",
+								"62f066752b0955019c196509"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

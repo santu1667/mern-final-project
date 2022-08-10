@@ -1,0 +1,20 @@
+.carouselImages {
+    text-align: center;
+    align-items: center;
+}
+
+.carouselImages img{
+    margin-left: 18%;
+    margin-top: 11px;
+    width: 60%;
+    height: 250px;
+}
+
+.carouselImages .slick-dots{
+    margin-left: -3% !important
+}
+
+.slick-next,.slick-prev{
+    display:none;
+    right:0px !important
+}

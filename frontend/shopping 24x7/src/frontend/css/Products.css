@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+.leftPanel{
+    width:20%;
+    border-right: 1px solid orange
+}
+
+.productContainer{
+    width: 77%;
+    margin-left: 17%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    margin-top :2%
+}
+
+.productContainer img{
+    width: 50%;
+    height: 120px;
+    border-radius: 0px !important;
+    border: 0px;
+    margin-top: 12px;
+    cursor: pointer
+}
+
+.isTopProductText{
+    width: 184px;
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    background-color: orange;
+}
+
+.productItem{
+    text-align: center;
+    width: 19%;
+    height: 230px;
+    background-color: lightblue;
+    margin: 0px 0px 12px 10px;
+}
+
+.productItem hr{
+    margin: 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 0.25;
+}
+
+.productItem button{
+    margin-bottom: 10px;
+    border-radius:1px solid green;
+}
+
+.productContainer p{
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 0px;
+}

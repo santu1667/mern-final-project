@@ -1,0 +1,35 @@
+.departmentContainer{
+    width: 77%;
+    margin-left: 17%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    margin-top :2%
+}
+
+.departmentContainer img{
+    width: 80%;
+    height: 120px;
+    border-radius: 0px !important;
+    border: 0px;
+    margin-top: 12px;
+    cursor: pointer
+}
+
+.departmentItem{
+    text-align: center;
+    width: 20%;
+    height: 170px;
+    background-color: lightblue;
+    margin: 0px 0px 12px 10px;
+}
+
+.departmentContainer p{
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.departmentHeading{
+    margin-left:35%
+}

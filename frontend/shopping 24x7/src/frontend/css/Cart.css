@@ -1,0 +1,34 @@
+.cartContainer{
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+.cartItems{
+    display: flex;
+    border-bottom: groove;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.cartDescription{
+    display: grid;
+    width: 30%;
+}
+
+.cartPrice,.cartCheckout p{
+    margin-left: 65%;
+}
+
+.cartCheckout button{
+    margin-left:70%
+}
+
+.cartCheckout{
+    text-align: right;
+}
+
+.cartItems p{
+    cursor: pointer;
+    color: red;
+    margin-left: 5px;
+}

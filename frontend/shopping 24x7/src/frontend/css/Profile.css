@@ -1,0 +1,58 @@
+img {
+    border-radius: 50%;
+    width: 70%;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.profileContainer{
+    min-height: 78vh;
+}
+
+form{
+    padding-left: 10px;
+}
+
+.updateAddressForm div{
+    padding-bottom: 10px;
+}
+
+.profileContainer input{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 80%;
+}
+.updateAddressForm input{
+    padding: 0;
+}
+
+.nameDetails label{
+    font-size: smaller;
+    font-display: bold;
+    font-family: monospace;
+
+}
+
+.nameDetails span{
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.profileLogin{
+    text-align: center;
+}
+
+.errorMessage {
+    color: red;
+    width: 100% !important;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.imageButtons button{
+    margin-left: 15px;
+}
+
+

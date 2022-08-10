@@ -1,0 +1,18 @@
+Categories Products - URL - /categories/:categoryid
+
+Prodcut Page - URL - /prodcuts/:product_id
+
+Cart - URL - /Cart
+
+Checkout - URL - /checkout
+
+Orders - URL - /Orders
+
+Admin---
+Add New Product - URL - /add-new-product_id
+
+Manage Products - /admin/Products
+
+Edit Product - /admin/products/:product_id/edit
+
+Orders - /admin/orders

@@ -1,0 +1,63 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 78vh;
+}
+.content-wrap {
+  flex: 1;
+  margin-top:6%
+}
+.App{
+  text-align: center;
+}
+
+/* Styles for AddProduct*/
+.productDetailsContainer{
+  margin-left: 3rem;
+  width: 60%;
+}
+.productDetailsContainer label{
+  font-family: monospace;
+}
+.addProductContainer{
+  display: flex;
+}
+.addProductContainer img{
+  border-radius: 0px;
+}
+.productDetailsContainer input, .productDetailsContainer textarea {
+  margin-bottom: 3px;
+  margin-top: 1px;
+  width: 80%;
+  border-radius: 4px;
+  padding: 0px;
+}
+.isTopProduct{
+  margin-bottom: 10px;
+}
+.isTopProduct input{
+  width:2% !important;
+}
+.product-item{
+  display: grid;
+}
+.product-image label{
+  margin-right: 6px;
+}
+.addProductButton{
+    color:black;
+    background-color: green;
+    border-radius: 15px;
+}
+
+.admin{
+background-color: lightsalmon !important;
+}

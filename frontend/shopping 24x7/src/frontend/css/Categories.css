@@ -1,0 +1,36 @@
+.categoriesContainer{
+    width: 77%;
+    margin-left: 17%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    margin-top :2%
+}
+
+.categoriesHeading h5{
+    margin-top:4% !important;
+    margin-left:-5% !important
+}
+
+.categoriesContainer img{
+    width: 94%;
+    height: 120px;
+    border-radius: 0px !important;
+    border: 0px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.categoryItem{
+    text-align: center;
+    width: 26%;
+    height: 163px;
+    background-color: lightblue;
+    margin: 0px 0px 5px 10px;
+}
+
+.categoriesContainer p{
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
