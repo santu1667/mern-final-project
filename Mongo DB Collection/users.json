@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "62e15acbc39a1b35e0962cc1"
+  },
+  "firstName": "testfn",
+  "lastName": "testln",
+  "password": "$2a$10$BJ2q.JBMkxkGAUkU7gfsHO4TnFjZdhGbN7AsRS6LnwPxYui56FxJi",
+  "email": "test@gmail.com",
+  "role": "User",
+  "__v": 0,
+  "address": {
+    "streetAddress": "9835 Fredericksburg Rd",
+    "city": "San Antonio",
+    "zipcode": "78240",
+    "state": "TX"
+  },
+  "profileImage": {
+    "imageLocation": null,
+    "imageURL": null
+  }
+},{
+  "_id": {
+    "$oid": "62ed5fdd418796a8068b6b46"
+  },
+  "firstName": "Santosh Kumar",
+  "lastName": "Guntuku",
+  "password": "$2a$10$ZgztxDV8u5tPQNd1XhooEecQcNYVaL7IY66.wC5M3ZNKtY5LFKq1W",
+  "email": "santosh@gmail.com",
+  "role": "Admin",
+  "profileImage": {
+    "imageLocation": null,
+    "imageURL": null
+  },
+  "__v": 0,
+  "address": {
+    "streetAddress": "9835 Fredericksburg Rd",
+    "city": "Apt 614",
+    "zipcode": "TX",
+    "state": "San Antonio"
+  }
+},{
+  "_id": {
+    "$oid": "62eede57063fb6a3b9a6c343"
+  },
+  "firstName": "test2fn",
+  "lastName": "test2ln",
+  "password": "$2a$10$8I3NQhUyXhQW5MfPKp2vjexIymLwEWMeojxFUqZo5Vfsp12IKN.sO",
+  "email": "test2@gmail.com",
+  "role": "User",
+  "profileImage": {
+    "imageLocation": null,
+    "imageURL": null
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62efd5f0745580836c7cdeda"
+  },
+  "firstName": "test4fn",
+  "lastName": "test4ln",
+  "password": "$2a$10$uOLUfWVsnI1P/36pWwDy/O2sz1D1mUwSw7b9ofbkLves/DwYEsR5W",
+  "email": "test4@gmail.com",
+  "role": "User",
+  "profileImage": {
+    "imageLocation": null,
+    "imageURL": null
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0463c2b0955019c1964e9"
+  },
+  "firstName": "test5fn",
+  "lastName": "test5ln",
+  "password": "$2a$10$fuSutUEuOmLjKK80NRTc4OdDu.zOzujPXFQ5IZ8W7gwe9pgGDMKpi",
+  "email": "test5@gmail.com",
+  "role": "User",
+  "profileImage": {
+    "imageLocation": null,
+    "imageURL": null
+  },
+  "__v": 0,
+  "address": {
+    "streetAddress": "9800 Fredericksburg Rd",
+    "city": "San Antonio",
+    "zipcode": "78240",
+    "state": "TX"
+  }
+},{
+  "_id": {
+    "$oid": "62f0f5342b0955019c196578"
+  },
+  "firstName": "test11fn",
+  "lastName": "test11ln",
+  "password": "$2a$10$dlgT1YOn8js44C38k/T9mOgqIEdhnqzptV6IUSaYjnweWpP5HnoHC",
+  "email": "test11@gmail.com",
+  "role": "User",
+  "profileImage": {
+    "imageLocation": null,
+    "imageURL": null
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0f9a92b0955019c19658c"
+  },
+  "firstName": "test12fn",
+  "lastName": "test12ln",
+  "password": "$2a$10$8Uno8bNQbZtFjhMQZUbtVeXalgIhAyTyHYvIgJdcwdECClvAsAi16",
+  "email": "test12@gmail.com",
+  "role": "User",
+  "profileImage": {
+    "imageLocation": null,
+    "imageURL": null
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0fcac2b0955019c196595"
+  },
+  "firstName": "test1fn",
+  "lastName": "test1ln",
+  "password": "$2a$10$6zmCXsVY/OnV.y2yxRMQVO5S7zLR6BO74971doidp3wa.dBS4usl.",
+  "email": "test1@gmail.com",
+  "role": "User",
+  "profileImage": {
+    "imageLocation": null,
+    "imageURL": null
+  },
+  "__v": 0
+}]

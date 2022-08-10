@@ -1,0 +1,541 @@
+[{
+  "_id": {
+    "$oid": "62e89f1c75ad29834b478106"
+  },
+  "name": "HZD",
+  "category": "Video Games",
+  "price": 49,
+  "discountPrice": 0,
+  "description": "In an era where machines roam the land and mankind is no longer the dominant species, a young hunter named Aloy embarks on a journey to discover her destiny",
+  "image": "./images/products/HZD.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412252210"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e89f5b75ad29834b478108"
+  },
+  "name": "The Last of US",
+  "category": "Video Games",
+  "price": 69,
+  "discountPrice": 0,
+  "description": "Enhanced visuals: Completely rebuilt from the ground up using Naughty Dog’s latest PS5 engine technology to improve every visual detail, The Last of Us experience has been faithfully enhanced with more realistic lighting and atmosphere, more intricate environments and creative reimaginings of familiar spaces.",
+  "image": "./images/products/Last of us.jpg",
+  "isTopProduct": true,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412315067"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e89fb175ad29834b47810a"
+  },
+  "name": "Sackboy",
+  "category": "Video Games",
+  "price": 59,
+  "discountPrice": 30,
+  "description": "Face thrilling, unpredictable challenges as you explore distinctive hand-crafted lands through deeply immersive and expressive controls.",
+  "image": "./images/products/Sackboy.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412401952"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a02575ad29834b47810d"
+  },
+  "name": "Spiderman",
+  "category": "Video Games",
+  "price": 25,
+  "discountPrice": 0,
+  "description": "Miles morales discovers explosive powers that set him apart from his mentor, peter parker. Master his unique, bio-electric venom Blast attacks and covert camouflage power alongside spectacular web-slinging acrobatics, gadgets and skills.",
+  "image": "./images/products/Spiderman.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412517883"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a08f75ad29834b47810f"
+  },
+  "name": "CanonEOS 2000D",
+  "category": "Cameras",
+  "price": 479,
+  "discountPrice": 0,
+  "description": "Canon EOS 2000D DSLRCamera Body (International Version )- 24.1MP APS-C CMOS Sensor, DIGIC 4+ Image Processor, 3.0\" 920k-Dot LCD Monitor, Full HD 1080/30p Video Recording, 9-Point AF with Center Cross-Type Point, ISO 100-6400, Up to 3 fps Shooting, Built-In Wi-Fi with NFC, Scene Intelligent Auto Mode , Creative Filters and Creative Auto Modes",
+  "image": "./images/products/Canon EOS 2000D.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412623655"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a0cb75ad29834b478111"
+  },
+  "name": "CanonEOS 4000D",
+  "category": "Cameras",
+  "price": 499,
+  "discountPrice": 0,
+  "description": "Canon EOS 4000D / Rebel T100 DSLR Camera Body (International Version )- 24.1MP APS-C CMOS Sensor, ISO 100-6400, Up to 3 fps Shooting, Built-In Wi-Fi with NFC, 9-Point AF with Center Cross-Type Point, Full HD 1080/30p Video Recording, Creative Filters, Creative Auto Modes, 3.0'' 920k-Dot LCD Monitor, DIGIC 4+ Image Processor and Scene Intelligent Auto Mode.",
+  "image": "./images/products/Canon EOS 4000D.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412683268"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a0ff75ad29834b478113"
+  },
+  "name": "CanonEOS Rebtel T7",
+  "category": "Cameras",
+  "price": 899,
+  "discountPrice": 0,
+  "description": "Canon EOS Rebel T7 DSLR Camera - 24.1MP APS-C CMOS Sensor - DIGIC 4+ Image Processor - 3.0\" 920k-Dot LCD Monitor - Full HD 1080/30p Video Recording - 9-Point AF with Center Cross-Type Point - ISO 100-6400, Up to 3 fps Shooting - Built-In Wi-Fi with NFC - Scene Intelligent Auto Mode - Creative Filters and Creative Auto Modes",
+  "image": "./images/products/Canon EOS Rebtel T7.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412735061"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a16e75ad29834b478115"
+  },
+  "name": "NikonD 850X",
+  "category": "Cameras",
+  "price": 2269,
+  "discountPrice": 0,
+  "description": "Nikon designed back side illuminated (BSI) full frame image sensor with no optical low pass filter. 45.7 megapixels of extraordinary resolution, outstanding dynamic range and virtually no risk of moiré",
+  "image": "./images/products/Nikon D850 FX.jpg",
+  "isTopProduct": true,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412846049"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a1a675ad29834b478117"
+  },
+  "name": "Nikon D7500",
+  "category": "Cameras",
+  "price": 1248,
+  "discountPrice": 0,
+  "description": "Designed as a true all-arounder, the Nikon D7500 is a DX-format DSLR offering a versatile feature-set to appeal to photographers and videographers alike. Based on a 20.9MP CMOS sensor and EXPEED 5 image processor, this multimedia maven avails an 8 fps continuous shooting rate for up to 100 consecutive JPEGS, a native sensitivity range to ISO 51,200 that can be expanded up to ISO 1,640,000, and 4K UHD video and time-lapse recording capabilities.",
+  "image": "./images/products/Nikon D7500.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412902616"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a1db75ad29834b478119"
+  },
+  "name": "Panasonic lumix",
+  "category": "Cameras",
+  "price": 399,
+  "discountPrice": 0,
+  "description": "Superb DSLM image quality without the bulk and weight of traditional DSLRs\nNever miss a photo with three unique 4K ultra HD video pause and save 4K photo modes\nFast and precise auto focusing tracks the subject; Focus mode AFS (single) / AFF (flexible) / AFC (continuous) / MF, AF mode face/eye detection / tracking / 49 area / custom Multi / 1 area / pinpoint",
+  "image": "./images/products/Panasonic Luminous.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659412955310"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a29275ad29834b47811b"
+  },
+  "name": "Car Charger",
+  "category": "Car Parts",
+  "price": 15,
+  "discountPrice": 0,
+  "description": "COMPACT SIZE, FLUSH FIT: The tiny thumb-sized (1.7\" (L) x 0.9\" (W)) body fits most car cigarette lighters and barely protrudes past the edge of the outlet, providing a trim, less cluttered look. It's our smallest car charger yet: lightweight and highly portable, so you can take it everywhere.",
+  "image": "./images/products/Car Charger.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413138899"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a2bf75ad29834b47811d"
+  },
+  "name": "Trunk Organiser",
+  "category": "Car Parts",
+  "price": 35,
+  "discountPrice": 0,
+  "description": "COLLAPSIBLE - Car organization is now easy to come by with the Drive Auto car trunk organizer. It can be resized to fit large or small vehicle spaces and conveniently folds away when not in use.",
+  "image": "./images/products/Trunk organiser.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413183520"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a2e975ad29834b47811f"
+  },
+  "name": "Air Refreshner",
+  "category": "Car Parts",
+  "price": 65,
+  "discountPrice": 0,
+  "description": "Stay fresh with up to 40 days of consistent scent with Febreze Car Vent Clips (on low)\nDelivers even scent throughout your car with patented Steady Release Technology",
+  "image": "./images/products/Car Freshner.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413225775"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a32675ad29834b478121"
+  },
+  "name": "Glower Cable",
+  "category": "Car Parts",
+  "price": 95,
+  "discountPrice": 0,
+  "description": "Smart DIY mode: with smart color picking, the Govee Home app can capture the colors on your favorite photos and apply them to your car lights. Enjoy over 16 million colors and a host of scene modes thanks to an intuitive DIY mode",
+  "image": "./images/products/Car Glower.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413286233"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a35a75ad29834b478123"
+  },
+  "name": "Interior Glower",
+  "category": "Car Parts",
+  "price": 20,
+  "discountPrice": 0,
+  "description": "Dynamic Music Mode: The built-in mic helps car lights sync smoothly with any music type. Liven up your road trips, weekend get-aways, or evening commute with colors that dance vibrantly to your favorite songs.",
+  "image": "./images/products/Interior Lights.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413338496"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a3c175ad29834b478125"
+  },
+  "name": "Bubble blower",
+  "category": "Toys",
+  "price": 26,
+  "discountPrice": 0,
+  "description": "KID-FRIENDLY DESIGN 🌞 Fun, bright Dolphin shape will delight kids of all ages as they watch loads of exciting bubbles pour out of its mouth in a continuous stream! Simple and easy for kids to operate and refill. 8 OZ BUBBLE SOLUTION INCLUDED.",
+  "image": "./images/products/Bubble Machine.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413441235"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a3fd75ad29834b478127"
+  },
+  "name": "Dolanus Remote Car",
+  "category": "Toys",
+  "price": 50,
+  "discountPrice": 0,
+  "description": "DOUBLE BATTERY, DOUBLE THE GAME TIME: For a better gaming experience, we have prepared 2 AA batteries (for remote control), and 2 rechargeable batteries (2 batteries can last 120 minutes). The remote control car only needs 1 rechargeable battery to drive, you can use the battery alternately, so you can get double the game time. And we have prepared exquisite packaging so that children who receive gifts can immediately enjoy the fun of RC cars.",
+  "image": "./images/products/Remote Car.jpg",
+  "isTopProduct": true,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413501739"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a44575ad29834b478129"
+  },
+  "name": "Dinosaur",
+  "category": "Toys",
+  "price": 35,
+  "discountPrice": 0,
+  "description": "2022 Newest Take Apart Dinosaur Toys】Our building toys include 3 kinds of dinosaur: blue Tyrannosaurus Rex, green Triceratops, brown Velociraptor. Kids can open this dinosaur Kit box and start playing immediately. The multi-color design helps attract children's attention to creative assembly and promotes children's teamwork",
+  "image": "./images/products/Dinasour.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413573455"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a48975ad29834b47812b"
+  },
+  "name": "Pretend Vegetables",
+  "category": "Toys",
+  "price": 65,
+  "discountPrice": 0,
+  "description": "Fake Cooking food: Made of high-end environmentally friendly ABS plastic with rounded edges to provide maximum safety for your child. Bright and bright colors can not only attract the baby's attention, but also improve color perception.",
+  "image": "./images/products/Play Vegetables.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413641806"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a50675ad29834b47812d"
+  },
+  "name": "Motorola Edge",
+  "category": "Mobiles",
+  "price": 399,
+  "discountPrice": 0,
+  "description": "Unlocked for the freedom to choose your carrier. 5G service available with 5G plan. 5G network coverage required; available only in select areas. Compatible with T-Mobile 5G and Verizon 5G. Ready for 5G on other select networks dependent on availability; contact your service provider for details. Compatible with all major 4G U.S. carriers, including Verizon, AT&T, and T-Mobile. It also works with prepaid carriers, including Cricket Wireless, Metro by T-Mobile, Simple Mobile, Total Wireless, Tracfone, Net10, Mint, TracFone, Boost, and H2O.",
+  "image": "./images/products/Motorola Edge.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413766210"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a53a75ad29834b47812f"
+  },
+  "name": "Moto G Stylus",
+  "category": "Mobiles",
+  "price": 199,
+  "discountPrice": 0,
+  "description": "Built-in stylus. Retouch photos, jot notes, sketch artwork, and control a growing number of games and all apps with pinpoint precision.\n48 MP quad camera system. Showcase your creativity from every perspective, from ultra-wide angle shots to detailed close-ups and everything in between",
+  "image": "./images/products/Moto G Stylus.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413818343"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a5c175ad29834b478131"
+  },
+  "name": "Samsung S20+",
+  "category": "Mobiles",
+  "price": 349,
+  "discountPrice": 0,
+  "description": "Power of 5G: Get next-level power for everything you love to do with Samsung Galaxy 5G; Share more, game harder, experience more and never miss a beat\nSingle Take AI: Capture video and multiple types of images with one tap of the shutter button; Lenses, effects and filters capture the best of every moment, every time",
+  "image": "./images/products/Samsung S20+.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659413953442"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a60475ad29834b478133"
+  },
+  "name": "Samsung A53",
+  "category": "Mobiles",
+  "price": 249,
+  "discountPrice": 0,
+  "description": "Galaxy A53 5G*** gives you the A Series’ biggest built-in storage and lets you enjoy more memories and entertainment; With an additional 1TB of expandable storage with a microSD card****, you can hold on to every smile and relive every epic vacay",
+  "image": "./images/products/Samsung A53.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659414020174"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a63375ad29834b478135"
+  },
+  "name": "Samsung Z Fold 3",
+  "category": "Mobiles",
+  "price": 1299,
+  "discountPrice": 0,
+  "description": "EXPANSIVE SCREEN: See more and do more with the ultimate folding mobile phone screen that puts a super slim tablet right in your pocket\nNEARLY INVISIBLE CAMERA: Take in an incredible uninterrupted view with a true edge-to-edge viewing experience thanks to our first-ever Under Display Camera\n120Hz AMOLED 2X SCREEN: Everything looks brilliant on this big, beautiful clear display offering a mesmerizing and dynamic viewing experience",
+  "image": "./images/products/Samsun Galaxy Z Fold 3.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659414067920"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a66475ad29834b478137"
+  },
+  "name": "Samsung S22 Ultra",
+  "category": "Mobiles",
+  "price": 999,
+  "discountPrice": 0,
+  "description": "8K SUPER STEADY VIDEO: Shoot videos that rival how epic your life is with stunning 8K recording, the highest recording resolution available on a smartphone; Video captured is effortlessly smooth, thanks to Auto Focus Video Stabilization on Galaxy S22 Ultra",
+  "image": "./images/products/Samsun S22 ultra.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659414116990"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a6fa75ad29834b47813a"
+  },
+  "name": "IPhone 13 Pro Max",
+  "category": "Mobiles",
+  "price": 1299,
+  "discountPrice": 0,
+  "description": "6.4-inch Super Retina XDR display with ProMotion for a faster, more responsive feel\nCinematic mode adds shallow depth of field and shifts focus automatically in your videos\nPro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording",
+  "image": "./images/products/Apple 13 pro max.jpg",
+  "isTopProduct": true,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659414266122"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a71475ad29834b47813c"
+  },
+  "name": "IPhone 13 Pro",
+  "category": "Mobiles",
+  "price": 999,
+  "discountPrice": 0,
+  "description": "6.1-inch Super Retina XDR display with ProMotion for a faster, more responsive feel\nCinematic mode adds shallow depth of field and shifts focus automatically in your videos\nPro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording",
+  "image": "./images/products/Apple 13 Pro.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659414292979"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62e8a74e75ad29834b47813e"
+  },
+  "name": "IPhone XR",
+  "category": "Mobiles",
+  "price": 499,
+  "discountPrice": 0,
+  "description": "This phone is unlocked and compatible with any carrier of choice on GSM and CDMA networks (e.g. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc.).\nTested for battery health and guaranteed to have a minimum battery capacity of 80%.\nSuccessfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.",
+  "image": "./images/products/Apple Iphone XR.jpg",
+  "isTopProduct": false,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659414350299"
+    }
+  },
+  "__v": 0,
+  "quantityAvailable": 1
+},{
+  "_id": {
+    "$oid": "62ed9cb8418796a8068b6b98"
+  },
+  "name": "Play Station 4",
+  "category": "Consoles",
+  "price": 399,
+  "discountPrice": 0,
+  "description": "Play Station 4 enables the greatest game developers in the world to unlock their creativity and push the boundaries of play through a platform that is tuned specifically to their needs.",
+  "image": "./images/products/PlayStation4.jpg",
+  "quantityAvailable": 1,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659739320581"
+    }
+  },
+  "__v": 0,
+  "isTopProduct": false
+},{
+  "_id": {
+    "$oid": "62f05fee2b0955019c1964f5"
+  },
+  "name": "Xbox Series X",
+  "category": "Consoles",
+  "price": 599,
+  "discountPrice": 0,
+  "description": "Introducing the XBOX Seriex_X: Providing a true 4K gaming experience, thanks to the 12 teraflops of processing power. Equipped with AMD's Zen 2 and RDNA 2 architectures, hardware-accelerated DirectX raytracing delivers realistic lighting, shadows, and reflections to create dynamic, living worlds.",
+  "image": "./images/products/Xbox Series X.jpg",
+  "isTopProduct": true,
+  "quantityAvailable": 1,
+  "createdOn": {
+    "$date": {
+      "$numberLong": "1659920366791"
+    }
+  },
+  "__v": 0
+}]
