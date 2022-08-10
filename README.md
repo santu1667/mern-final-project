@@ -22,7 +22,8 @@ frontend:
 1. Open powershell terminal and navigate to frontend/shopping24x7 folder
    (Example : D:\Learning\mern-final-project\mern-final-project\frontend\shopping24x7)
 2. check if node_modules folder is present or not.If not present perform step 3 else go to step 4
-3. Run the command npm install --legacy-peer-deps to install the required modules
+3. Run the command npm install --force to install the required modules. (Run npm
+   install --legacy-peer-deps in case of any further issues)
 4. Once the required modules installed start the react server by running the command
    npm start
 5. Hit the URL http://localhost:4200/ to navigate to Application.
